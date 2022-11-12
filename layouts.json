@@ -1,6 +1,6 @@
 {
   "workspaces": [
-    [{ "current": 6 }, { "current": 2 }],
+    [{ "current": 2 }, { "current": 2 }],
     [{ "current": 3 }, { "current": 2 }]
   ],
   "definitions": [
@@ -19,6 +19,15 @@
             { "type": 0, "length": 50 }
           ]
         }
+      ]
+    },
+    {
+      "name": "[Custom] 2 Columns",
+      "type": 0,
+      "length": 100,
+      "items": [
+        { "type": 1, "length": 60 },
+        { "type": 1, "length": 40 }
       ]
     },
     {

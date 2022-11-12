@@ -6,6 +6,22 @@
   "definitions": [
     { "name": "None", "type": 0, "length": 100, "items": [] },
     {
+      "name": "[Custom] 2 Columns (2 Rows at right Column)",
+      "type": 0,
+      "length": 100,
+      "items": [
+        { "type": 1, "length": 60 },
+        {
+          "type": 1,
+          "length": 40,
+          "items": [
+            { "type": 0, "length": 50 },
+            { "type": 0, "length": 50 }
+          ]
+        }
+      ]
+    },
+    {
       "name": "1 Column",
       "type": 0,
       "length": 100,
